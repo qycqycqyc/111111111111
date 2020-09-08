@@ -31,7 +31,7 @@ def odom_tf_callback(Odometry):
                      (x_o, y_o, z_o, w_o), #旋转(四元数)
                      rospy.Time.now(),
                      'base_link',  #子坐标系
-                     'odom')      #父坐标系原来是odom-----------试试world
+                     'odom')      #父坐标系
 
 
 if __name__ == '__main__':
